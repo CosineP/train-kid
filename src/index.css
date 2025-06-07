@@ -1,0 +1,100 @@
+:root {
+  line-height: 1.5;
+  color-scheme: dark;
+  --primary: #f5ffff;
+  color: var(--primary);
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+a {
+  color: pink;
+}
+a:active {
+  color: #a3197e;
+}
+
+#root {
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+textarea {
+  width: 700px;
+  height: 1000px;
+}
+
+#plots {
+  padding-top: 200px;
+  margin-top: -200px;
+  margin: -200px -20px 0;
+  overflow-x: auto;
+}
+.plot {
+  width: max-content;
+  pointer-events: none;
+}
+.floating {
+  position: sticky;
+  left: 60vw;
+  display: inline-block;
+  margin: 0;
+  text-shadow: 0 0 5px var(--primary);
+}
+#plots p {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+pre {
+  margin: 0;
+  padding: 0;
+  opacity: .5;
+}
+
+input, button {
+  border: none;
+  padding: 0.6em 1.2em;
+  margin: 0.2em;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1em;
+  font-family: inherit;
+  transition: border-color 0.25s;
+}
+button {
+  min-width: 8em;
+  cursor: pointer;
+  background-color: #5c0645;
+}
+button:hover, button:focus {
+  background-color: #a3197e;
+}
+button:disabled {
+  background-color: #a3197e;
+  transform: translateY(-2px);
+}
+input {
+  width: calc(100% - .2em);
+  box-sizing: border-box;
+  background-color: #1a0113;
+}
+input:hover, input:focus {
+  background-color: #29021e;
+}
+
+#viewport-border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: 1em solid black;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 1;
+}

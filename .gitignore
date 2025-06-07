@@ -1,0 +1,41 @@
+# Vendored - not open source
+/model
+# My data is not under license even though it is available through
+# the frontend. Not including it in the repository just helps make
+# the licensing clearer.
+public/data/
+# My evil plans
+NOTES.md
+# "Security" - my MBTA key is leaked on the frontend anyway
+.env
+
+# Build artifact for tinydice that unfortunately HAS to live here
+public/tinydice.cjs
+
+# Standard vite/TS/git nonsense below
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

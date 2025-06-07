@@ -1,0 +1,223 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`planning to work > can plan on the orange line 1`] = `
+[
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 13,
+          "kind": "walk",
+        },
+        {
+          "from": "NEC-2237-05",
+          "kind": "leg",
+          "to": "NEC-2276-03",
+        },
+        {
+          "for": 4,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "Walk, Needham Line",
+  },
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 8,
+          "kind": "walk",
+        },
+        {
+          "from": "70003",
+          "kind": "leg",
+          "to": "70015",
+        },
+        {
+          "for": 4,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "Orange Line",
+  },
+]
+`;
+
+exports[`planning to work > can plan to work 1`] = `
+[
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 5,
+          "kind": "walk",
+        },
+        {
+          "from": "931",
+          "kind": "leg",
+          "to": "899",
+        },
+        {
+          "for": 22,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "57, Walk",
+  },
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 3,
+          "kind": "walk",
+        },
+        {
+          "from": "70130",
+          "kind": "leg",
+          "to": "70152",
+        },
+        {
+          "for": 17,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "B, Walk",
+  },
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 5,
+          "kind": "walk",
+        },
+        {
+          "from": "931",
+          "kind": "leg",
+          "to": "899",
+        },
+        {
+          "from": "899",
+          "kind": "leg",
+          "to": "1785",
+        },
+        {
+          "for": 3,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "57, 8",
+  },
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 3,
+          "kind": "walk",
+        },
+        {
+          "from": "1302",
+          "kind": "leg",
+          "to": "1322",
+        },
+        {
+          "for": 12,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "66, Walk",
+  },
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 3,
+          "kind": "walk",
+        },
+        {
+          "from": "70130",
+          "kind": "leg",
+          "to": "170140",
+        },
+        {
+          "for": 6,
+          "kind": "walk",
+        },
+        {
+          "from": "1773",
+          "kind": "leg",
+          "to": "1785",
+        },
+        {
+          "for": 3,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "B, 47",
+  },
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 24,
+          "kind": "walk",
+        },
+        {
+          "from": "1773",
+          "kind": "leg",
+          "to": "1785",
+        },
+        {
+          "for": 3,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "Walk, 47",
+  },
+  {
+    "exp": {
+      "kind": "seq",
+      "steps": [
+        {
+          "for": 3,
+          "kind": "walk",
+        },
+        {
+          "from": "1302",
+          "kind": "leg",
+          "to": "1314",
+        },
+        {
+          "for": 2,
+          "kind": "walk",
+        },
+        {
+          "from": "70256",
+          "kind": "leg",
+          "to": "70246",
+        },
+        {
+          "for": 4,
+          "kind": "walk",
+        },
+      ],
+    },
+    "name": "66, E",
+  },
+]
+`;

@@ -1,0 +1,19 @@
+{
+  "name": "🚂 Train Kid",
+  "theme_color": "#e9aaea",
+  "background_color": "#000000",
+  "short_name": "Train Kid",
+  "id": "train_kid",
+  "description": "Probabilistic trip evaluation for the MBTA",
+  "start_url": "https://cosine.website/train-kid/",
+  "version": "1.3.0",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
